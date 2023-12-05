@@ -1,34 +1,18 @@
-import java.util.Scanner;
-import java.util.scanner;
+public class App {
+    public static void main(String[] args) throws Exception {
+     //membuat variabel dan tipe datanya
+     String nama;
+     String nim;
+     String prodi;
+     
+     //mengisi variabel 
+     nama = "Rima Suryani";
+     nim = "23241026";
+     prodi = "PTI";
 
-public class app {
-
-    public static void main(String[] arges)throws Exception {
-        //deklarasi variabel dan tipe data
-        String nama;
-        String nim;
-        String prodi;
-        Double tinggi badan;
-
-        //membuat scanner baru
-        Scanner input = new scanner(System.in);
-
-        System.out.println("Form Data Mahasiswa UNDIKMA");
-        System.out.println("===========================");
-        //membuat form
-        System.out.print("Masukan Nama Mahasiswa UNDIKMA");
-        nama = input.nextLine();
-
-        System.out.print("Masukan Prodi : ");
-        prodi = input.nexLine();
-        
-        System.out.print("Masukan NIM");.
-        nim = input.nextLine();
-
-        System.out.print("Tinggi Badan : ");
-        tinggi_badan = input.nextDouble();
-
-        //cetak output ke layar monitor
-        System.out.println("Data Mahasiswa UNDIKMA")
-
-    
+     //menampilkan isi variabel ke layar monitor
+     System.out.println("Nama Mahasiswa :" + nama);
+     System.out.println("NIM : "  + nim);
+     System.out.println("program studi : " + prodi);
+    } 
+}    
